@@ -1,7 +1,7 @@
-`docker build . -t copay-docker`
+Build copay in a docker container. Supports builds for Android and Google Chrome extension.
 
-`docker run -it -p 8100:8100 copay-docker`
+How to use:
 
-`npm start`
-
-[http://localhost:8100](http://localhost:8100)
+1. `./build.sh`
+1. Go make a cup of tea (seriously, this takes a while)
+1. Look in `./build_output` when it's done
